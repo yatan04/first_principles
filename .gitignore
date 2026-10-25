@@ -1,0 +1,80 @@
+# =========================
+# Java / Maven / Spring Boot
+# =========================
+
+target/
+*.class
+*.jar
+*.war
+*.ear
+
+# Maven wrapper artifacts
+.mvn/wrapper/maven-wrapper.jar
+
+# Eclipse / STS
+.settings/
+.classpath
+.project
+.factorypath
+
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# VS Code
+.vscode/
+
+# =========================
+# Go
+# =========================
+
+vendor/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.prof
+
+# Build output
+bin/
+out/
+
+# =========================
+# IDE / Editor (all languages)
+# =========================
+
+*.swp
+*.swo
+*~
+*.bak
+
+# =========================
+# OS generated files
+# =========================
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# Logs / env / secrets
+# =========================
+
+*.log
+*.env
+.env*
+!example.env
+
+# =========================
+# Temp / caches
+# =========================
+
+tmp/
+temp/
+cache/
+.cache/
